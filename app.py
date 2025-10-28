@@ -10,8 +10,8 @@ import logging
 load_dotenv()
 
 # --- Configuration ---
-AZURE_STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
-CONTAINER_NAME = os.getenv("AZURE_BLOB_CONTAINER", "case7dxx6gu")
+AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=vbk5bhcase07secondhalf;AccountKey=gnBcddqbebNXX1+0i3HfEfehy/yctvBTjAU4qw9/qGZumISE0D4vCrPWs5uW5elOrNVsPGsBiA8k+AStoRQqmQ==;EndpointSuffix=core.windows.net"
+CONTAINER_NAME = "lanternfly-images"
 MAX_FILE_SIZE_MB = 10
 ALLOWED_MIME_TYPES = {"image/png", "image/jpeg", "image/jpg", "image/gif", "image/webp"}
 
